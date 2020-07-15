@@ -24,14 +24,11 @@ new_TTH = False
 edit_field = False
 update_order_status = False
 new_distribution = False
-token = '1014150298:AAGZg9ana2UWzAu-P1YXGNFYquEATtHgjqQ' #- Stiker_Bot token
+token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' #- Stiker_Bot token
 bot = telebot.TeleBot(token)
 
 
-#token = '1057572412:AAGLPY2ZViqNoyO3KMbarL4QVEDIku8u3NU' # DickerBot token
-#logging.basicConfig(format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S', filename='test.log', level=logging.DEBUG)
-
-# - кнопки будуть тимчасово тут
+# - кнопки тимчасово тут
 main_menu_button = telebot.types.KeyboardButton('👣Главное меню👣')
 main_menu_inline_button = types.InlineKeyboardButton('👣Главное меню👣', callback_data='Главное Меню')
 catalog_inline_button = types.InlineKeyboardButton('🤩Каталог🤩', callback_data='Каталог')
