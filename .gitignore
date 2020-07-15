@@ -1,0 +1,6 @@
+# ignore database file
+*.db
+__pycache__/
+.idea/
+venv/
+One-time_database_requests.py
